@@ -1,0 +1,93 @@
+
+header{
+    background-color: #FFD900;
+    height: 100px;
+    padding: 27px 0px 0px 60px;
+    margin: 0px;
+    
+}
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    color: #514988;
+    font-size: 70pxs;    
+}
+
+
+#info{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-column-gap: 10px;
+}
+
+#revi{
+    background-color: #514988;
+    text-align: center;
+    height: auto; 
+    
+    
+}
+
+#infor{
+    color: #FFD900;
+    font-size: 60px;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#texto{
+    padding-top: 70px;
+    font-size: 23px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding: 60px 60px 0px 60px;
+}
+
+video{
+    width: 100%;
+}
+#para{
+    font-size: 25px;
+    color:  #E33881;
+}
+
+#ainda{
+    color: #FFD900;
+    font-size: 23px;
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    
+    padding: 20px;
+}
+
+
+
+button{
+    color: #FFFFFF;
+    font-size:42px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #514988;
+    padding: 30px 90px;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+
+
+
+.mgs{
+    width: 160px;
+}
+
+
