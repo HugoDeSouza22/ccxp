@@ -31,8 +31,3 @@ countDown();
 setInterval(countDown, 1000);
 
 
-garanta.addEventListener("click", function(event) {
-    garanta.style.backgroundColor  = 'rgb(255, 217, 0)';
-    garanta.style.color= 'rgb(81, 73, 136)'
-
-})

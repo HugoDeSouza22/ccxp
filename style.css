@@ -92,6 +92,9 @@ footer{
     width: 160px;
 }
 
-
+#garanta:hover{
+    background-color: #FFD900;
+    color: #514988;
+}
 
 
