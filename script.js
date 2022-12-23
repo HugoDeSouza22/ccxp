@@ -3,7 +3,7 @@ const hora = document.getElementById("hora");
 const minuto = document.getElementById("minuto");
 const segundo = document.getElementById("segundo");
 
-const lancamento = "22 feb 2023"
+const lancamento = "01 dec 2023"
 
 
 function countDown() {
@@ -17,10 +17,10 @@ function countDown() {
     const finalMinutos = Math.floor(segTotal / 60) % 60;
     const finalSegundos = Math.floor(segTotal) % 60;
 
-    dia.innerHTML = finalDias;
-    hora.innerHTML = formatoTempo(finalHoras);
-    minuto.innerHTML = formatoTempo(finalMinutos);
-    segundo.innerHTML = formatoTempo(finalSegundos);
+    dia.innerHTML = finalDias +("D"); 
+    hora.innerHTML = formatoTempo(finalHoras) +("H");
+    minuto.innerHTML = formatoTempo(finalMinutos) +("M");
+    segundo.innerHTML = formatoTempo(finalSegundos) +("S");
 }
 
 function formatoTempo(tempo) {
@@ -29,3 +29,10 @@ function formatoTempo(tempo) {
 
 countDown();
 setInterval(countDown, 1000);
+
+
+garanta.addEventListener("click", function(event) {
+    garanta.style.backgroundColor  = 'rgb(255, 217, 0)';
+    garanta.style.color= 'rgb(81, 73, 136)'
+
+})
