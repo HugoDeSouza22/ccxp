@@ -25,6 +25,7 @@
                 
             </div>
 
+
             <div>
                 <h1 id="hora">00</h1>
                 
@@ -48,15 +49,16 @@
 <footer> 
     <div id="ainda">
         <h1 id="ainda">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!!</h1>
-        <img src="q.svg" class="mgs">
-        <img src="s.svg" class="mgs">
-        <img src="sa.svg" class="mgs">
-        <img src="d.svg" class="mgs">
+        <img src="q.svg" id="quinta" class="ingressos" onclick="selectCard('#quinta')" onmouseover="highlightcard('#quinta')" onmouseout="highlightcard('#quinta')">
+        <img src="s.svg" id="sexta" class="ingressos"  onclick="selectCard('#sexta')" onmouseover="highlightcard('#sexta')" onmouseout="highlightcard('#sexta')">
+        <img src="sa.svg" id="sabado" class="ingressos"  onclick="selectCard('#sabado')" onmouseover="highlightcard('#sabado')" onmouseout="highlightcard('#sabado')">
+        <img src="d.svg" id="domingo" class="ingressos"  onclick="selectCard('#domingo')" onmouseover="highlightcard('#domingo')" onmouseout="highlightcard('#domingo')">
     </div>
     <div>
-        <button id="garanta" ><strong>GARANTA O SEU!</strong></button>
+        <button onclick="showSelectedCards()" id="garanta" ><strong>GARANTA O SEU!</strong></button>
     </div>
 </footer>
-<script src="script.js"></script>
+<script src="cronometro.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
